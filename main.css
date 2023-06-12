@@ -1,36 +1,30 @@
 * {
-	box-sizing: border-box;
-    margin:0%;
-}
-
-header{
-    display: flex;
-    background-color: #F0FBF5;
-    padding:2%;
-    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
-    background-color: #F0FBF5; 
+    background-color: #F0FBF5;
     height: 150px;
-    width:100%;
+    width: 100%;
 }
 
-.nav-item{
+.nav-item {
     display: flex;
     flex-direction: column;
     margin-left: 1.5vw;
     margin-right: 1vw;
-    padding:0px;
+    padding: 0px;
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 16px;
     color: #216D66;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: 54px;
 }
 
@@ -38,11 +32,11 @@ header{
     color: #606060;
     margin: 20px;
     padding: 0px;
-    width:0%;
+    width: 0%;
 }
 
 .dropdown-item:hover {
-    color:#216D66;
+    color: #216D66;
 }
 
 .dropdown-menu {
@@ -52,7 +46,7 @@ header{
     margin-top: 50px;
 }
 
-.collapse{
+.collapse {
     align-items: center;
 }
 
@@ -61,62 +55,17 @@ header{
 }
 
 .earth {
-    margin-left: 8vw;
+    margin-right: 15vw;
 }
 
-.aboutUsBG {
-    background: url("/src/aboutUs_bg.png");
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-    align-items: center;
-}
-
-.hand {
-    z-index: 0;
-    position: absolute;
-    width: 100vw;
-}
-
-.humanText {
-    position: absolute;
-    z-index: 1;
-    top:75vh;
-    left: 12vw;
-    font-size: 56px;
-}
-
-.humanText2 {
-    position: absolute;
-    z-index: 1;
-    top: 85vh;
-    left: 12vw;
-    font-size: 32px;
-}
-
-h1{
-    color: #313131;
-}
-
-.intro {
-    display: block;
-    justify-content: center;
-    width: 100vw;
-}
-
-h3 {
-    font-size: 24px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    color: #323232;
-    width: 60vw;
-    word-spacing: 10%;
-    line-height: 231%;
-}
-
-.logo {
-    width:386px;
-    height: 79px;
-    justify-content: center;
-    margin-top: 10vh; 
-    margin-bottom: 10vh; 
+.div1 {
+    background: center top fixed;
+    /*不重覆排列、靠上置中、固定位置*/
+    background-image: url("SZUSRC/TOP.png");
+    background-size: cover;
+    /*不變形，寬高等比例，在必要時局部裁切*/
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
 }
