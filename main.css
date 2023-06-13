@@ -58,14 +58,15 @@
     margin-left: 8vw;
 }
 
-.div1 {
+/*頭*/
+
+.top {
     background: center top fixed;
     /*不重覆排列、靠上置中、固定位置*/
     background-image: url("SZUSRC/TOP.png");
     background-size: cover;
     /*不變形，寬高等比例，在必要時局部裁切*/
-    height: 35vw;
-    text-align: center;
+    height: 579px;
     padding: 10px;
     margin: 0px;
 }
@@ -74,14 +75,118 @@
     font-size: 36px;
     color: white;
     width: 30vw;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-hr {
-    background-color: rgb(0, 255, 195);
+.inhr1 {
+    z-index: -1;
+    background-color: #6BD7CD;
+    height: 3px;
+    border: none;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.header-text {
+    margin-top: 350px;
+    margin-left: 10vw;
+}
+
+.introo {
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 172px;
+}
+
+.introo-text {
+    color: #606060;
+    font-size: 26px;
+    padding: 10px;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.inhr2 {
+    z-index: -1;
+    background-color: #BDF2F9;
     height: 5px;
     border: none;
-    width: 23vw;
-    margin-left: 3vw;
-    justify-content: center;
-    align-items: center;
+    width: 326px;
+    margin: auto;
+}
+
+.inhr3 {
+    z-index: -1;
+    background-color: #606060;
+    height: 1px;
+    border: none;
+    width: 95vw;
+    margin: auto;
+}
+
+.PPA {
+    margin-top: 30px;
+}
+
+.HH1 {
+    font-size: 76px;
+    color: #6BD7CD;
+    font-weight: bold;
+    margin-left: 10vw;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH2 {
+    font-size: 26px;
+    color: #30ADA2;
+    margin-left: 10vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH3 {
+    font-size: 26px;
+    color: #000000;
+    margin-left: 10vw;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH4 {
+    font-size: 20px;
+    color: #606060;
+    margin-left: 10vw;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH4-1 {
+    font-size: 20px;
+    color: #606060;
+    margin-left: 10vw;
+    margin-top: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH5-1 {
+    font-size: 26px;
+    color: #000000;
+    margin-left: 10vw;
+    margin-top: 120px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH5 {
+    font-size: 26px;
+    color: #000000;
+    margin-left: 10vw;
+    margin-top: 48px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
