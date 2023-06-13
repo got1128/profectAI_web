@@ -8,7 +8,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/aboutUs/aboutUs.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="src/pic/logo.png" width="190" height="40" alt="">
+            <img src="/aboutUs/pic/logo.png" width="190" height="40" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
             aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,20 +96,23 @@
                     <a class="nav-link" href="#">聯絡洽詢</a>
                 </li>
                 <a class="earth" href="#">
-                    <img src="src/pic/lanage.png" width="30" height="30" alt="">
+                    <img src="/aboutUs/pic/lanage.png" width="30" height="30" alt="">
                 </a>
             </ul>
         </div>
     </nav>
+
     <!-- 導覽列 -->
-    <div class="aboutUsBG">
-        <img src="/src/pic/twoHands.png" class="hand" alt="bg">
-        <h1 class="humanText">我們以「人」的角度對待數據。</h1>
-        <h1 class="humanText2">Profet AI 結合人類的智慧，幫助您展開數據旅程。</h1>
+
+    <div class="parallax-container" id = "parallax-container">
+        <div class = "layer background-layer" id = "background-layer"></div>
+        <div class = "layer foreground-layer" id = "foreground-layer"></div>
+        <div class = "layer humanText">我們以「人」的角度對待數據。</div>
+        <div class = "layer humanText2">Profet AI 結合人類的智慧，幫助您展開數據旅程。</div>
     </div>
 
     <div class="intro">
-        <img class="logo" src="src/pic/logo.png" alt="">
+        <img class="logo" src="/aboutUs/pic/logo.png" alt="">
         <h3>Profet AI 杰倫智能科技成立於2018年，宗旨為希望能夠攜手協助各企業，運用 AI Machine Learning 導入應用。​如今Profet AI 已是 AutoML
             製造業領域的領導品牌，我們的願景透過去我們在外商 20 多年的經驗，以及近幾年來我們累積的產業別、執行以及應用經驗，將企業中珍貴的數據資料透過 Profet AI
             虛擬資料科學家平台加以應用，一天上手、一週落地，不只可以做到老師傅的經驗傳承，也讓企業於 Enterprise Big Data 淬鍊出更有價值的數位轉型機會，落實全民 AI
@@ -118,40 +121,101 @@
     </div>
     <div class="container">
         <div class="wrapper">
-            <div class="slide">
-                <div class="past_us">
-                    <p class="past_us_text">過去我們</p>
-                    <div>
-                        <h4>在全球領先軟體公司提供客戶數位化服務</h4>
-                        <p class="p1">20年來我們在外商服務，是數位鏈企業與智慧製造關鍵第一步，一直在思考我們還能多做甚麼？
-                            我們過去多年提供整合式顧問服務客戶數字轉型，是數字鏈企業與智能製造關鍵第一步</p>
-                    </div>
-                    <div class="circle"></div>
-                    <div class="line"></div>
+            <div class="line"></div>
+            <div class="slide1">
+                <p class="past_us_text">過去我們</p>
+                <div>
+                    <h4>在全球領先軟體公司提供客戶數位化服務</h4>
+                    <p class="p1">20年來我們在外商服務，是數位鏈企業與智慧製造關鍵第一步，一直在思考我們還能多做甚麼？
+                        我們過去多年提供整合式顧問服務客戶數字轉型，是數字鏈企業與智能製造關鍵第一步</p>
                 </div>
-                <!--不知道怎麼切-->
-                <div class="slide">
-                    <div class="history">
+                <div class="circle1"></div>
+            </div>
+
+            <!--不知道怎麼切-->
+            <div class="slide2">
+                <div class="wrapper_table">
+                    <div class="box1">
+                        <h2>公司治理</h2>
+                    </div>
+                    <div class="box2">
+                        <h2>數位化設計</h2>
+                    </div>
+                    <div class="box3">
+                        <h2>數位化工廠</h2>
+                    </div>
+                    <div class="box4">
+                        <h2>數位化服務</h2>
+                    </div>
+                </div>
+
+            </div>
+            <!--不知道怎麼切-->
+
+            <div class="slide3">
+                <p class="now_us_text">現在我們</p>
+                <div>
+                    <h4>企業快速導入機器學習的第一哩路</h4>
+                    <p class="p1">我們期望以過去長期深耕的產業結合新Al技術，讓企業於 Enterprise Big Data 淬鍊出更有價值的轉型機會</p>
+                </div>
+                <div class="circle2"></div>
+            </div>
+            <div class="slide4">
+                <img src="/aboutUs/pic/tablet.png" class="tablet" alt="bg">
+                <h5 class="ourGoal">我們的目標是將機器學習平台導入所有生產程序及設備中，透過預測模型幫助企業邁向數位轉型</h5>
+            </div>
+            <div class="slide5">
+
+                <div class="space1"></div>
+
+                <div class="space2">
+                    <div class="wrapper_list">
+                        <div class="list"></div>
+                        <h6 class="foundation">正式成立</h6>
+                    </div>
+                    <div class="circle2"></div>
+                    <h7 class="year">2018</h7>
+                </div>
+
+                <div class="space3">
+                    <div class="wrapper_list1">
+                        <div class="wrapper_list2">
+                            <div class="list"></div>
+                            <h6 class="award2019">Microsoft AI 100 Partner</h6>
+                        </div>
+                        <div class="wrapper_list2">
+                            <div class="list"></div>
+                            <h6 class="award2019">StarFab 創業競賽<br>冠軍/最佳人氣獎</h6>
+                        </div>
+                        <div class="wrapper_list2">
+                            <div class="list"></div>
+                            <h6 class="award2019">入選世界物聯網500強<br>WIOTC - 500強企業（467名）</h6>
+                        </div>
+                    </div>
+                    <div class="circle2"></div>
+                    <h7 class="year">2019</h7>
+                </div>
+
+                <div class="space4">
+                    <div class="wrapper_list">
 
                     </div>
+                    <div class="circle2"></div>
+                    <h7 class="year">2019</h7>
                 </div>
-                <!--不知道怎麼切-->
-                <!--<div class="slide">
-                    <div class="now_us">
-                        <p class="now_us_text">過去我們</p>
-                        <div>
-                            <h4>企業快速導入機器學習的第一哩路</h4>
-                            <p class="p1">我們期望以過去長期深耕的產業結合新Al技術，讓企業於 Enterprise Big Data 淬鍊出更有價值的轉型機會</p>
-                        </div>
-                        <div class="circle"></div>
-                        <div class="line"></div>
+                <div class="space5">
+                    <div class="wrapper_list">
+                        <div class="list"></div>
+                        <h6 class="foundation">正式成立</h6>
                     </div>
-                </div>-->
+                    <div class="circle2"></div>
+                    <h7 class="year">2019</h7>
+                </div>
+                <div class="space6"></div>
             </div>
         </div>
     </div>
-
-
+    <script src="/aboutUs/aboutUs.js"></script>
 </body>
 
 </html>
