@@ -64,8 +64,21 @@
     background-image: url("SZUSRC/TOP.png");
     background-size: cover;
     /*不變形，寬高等比例，在必要時局部裁切*/
-    height: 550px;
+    height: 580px;
     text-align: center;
     padding: 10px;
     margin: 0px;
+}
+
+.intop {
+    font-size: 36px;
+    color: white;
+    width: 30vw;
+}
+
+.inhr {
+    width: 28vw;
+
+    background: #6BD7CD;
+
 }
