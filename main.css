@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 .navbar {
     background-color: #F0FBF5;
     height: 150px;
@@ -90,6 +91,8 @@
     margin-top: 15px;
 }
 
+/*頸*/
+
 .header-text {
     margin-top: 350px;
     margin-left: 10vw;
@@ -126,6 +129,8 @@
     width: 95vw;
     margin: auto;
 }
+
+/*鎖骨*/
 
 .PPA {
     margin-top: 30px;
@@ -224,12 +229,10 @@
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+
 .more {
     width: 150px;
     height: 50px;
-}
-
-input {
     border: 2px #C2C2C2 solid;
     font-weight: bold;
     background-color: #ffffff;
@@ -241,10 +244,135 @@ input {
     float: right;
 }
 
-input:hover {
+.more:hover {
     font-weight: bold;
     color: #000000;
     background-color: #F0FBF5;
     border: 2px #C2C2C2 solid;
     font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/*胸*/
+
+.GGB {
+    background: center top fixed;
+    /*不重覆排列、靠上置中、固定位置*/
+    background-image: url("SZUSRC/GGB.png");
+    background-size: cover;
+    /*不變形，寬高等比例，在必要時局部裁切*/
+    width: 100vw;
+    height: 811px;
+    padding: 30px;
+    margin-top: 10vw;
+
+    /* 水平置中 */
+    justify-content: center;
+}
+
+#GGBP {
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+    width: 47px;
+    height: 24px;
+    margin: auto;
+    color: #000000;
+}
+
+
+
+.GGBT-1 {
+    color: white;
+    font-size: 28px;
+    margin-top: 40px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.GGBT-2 {
+    color: #6BD7CD;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.GGBT-3 {
+    color: white;
+    font-size: 36px;
+    margin-top: 170px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.GGBT-4 {
+    color: white;
+    font-size: 20px;
+    margin-top: 57px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.GGBT-4-1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.more1 {
+    position: relative;
+    left: 80%;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #30ADA2;
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    transform: translate(-50%, -50%);
+    margin-top: 10vw;
+}
+
+.more1:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #51cec3;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/*肺*/
+.CR {
+    position: relative;
+    justify-content: center;
+}
+
+#CRT1 {
+    font-size: 76px;
+    color: #30ADA2;
+    font-weight: bold;
+    margin-left: 10vw;
+    margin-top: 105px;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    position: absolute;
+
+    top: 10%;
+    left: 6%;
+    transform: translate(-20%, -80%);
+    z-index: 1000;
+
+}
+
+#CRP {
+    width: 740px;
+    height: 740px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-0%, -80%);
+
+
 }
