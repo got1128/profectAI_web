@@ -129,13 +129,14 @@
 
 .PPA {
     margin-top: 30px;
+    margin-left: 10vw;
 }
 
 .HH1 {
     font-size: 76px;
     color: #6BD7CD;
     font-weight: bold;
-    margin-left: 10vw;
+
     margin-bottom: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -143,7 +144,7 @@
 .HH2 {
     font-size: 26px;
     color: #30ADA2;
-    margin-left: 10vw;
+
     margin-bottom: 15px;
     font-weight: bold;
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -152,7 +153,7 @@
 .HH3 {
     font-size: 26px;
     color: #000000;
-    margin-left: 10vw;
+
     margin-bottom: 0px;
     font-weight: bold;
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -161,7 +162,7 @@
 .HH4 {
     font-size: 20px;
     color: #606060;
-    margin-left: 10vw;
+
     margin-top: 35px;
     margin-bottom: 20px;
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -170,7 +171,7 @@
 .HH4-1 {
     font-size: 20px;
     color: #606060;
-    margin-left: 10vw;
+
     margin-top: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -178,7 +179,7 @@
 .HH5-1 {
     font-size: 26px;
     color: #000000;
-    margin-left: 10vw;
+
     margin-top: 120px;
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -186,7 +187,64 @@
 .HH5 {
     font-size: 26px;
     color: #000000;
-    margin-left: 10vw;
+
     margin-top: 48px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.PP {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.PPB {
+    width: 546px;
+    /*margin-left: 250px;*/
+    margin-left: 20vw;
+    margin-top: 15vw;
+}
+
+.PPBP {
+    width: 546px;
+    height: 333px;
+}
+
+.HH3-1 {
+    font-size: 26px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.HH6 {
+    margin-top: 52px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.more {
+    width: 150px;
+    height: 50px;
+}
+
+input {
+    border: 2px #C2C2C2 solid;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 45px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin-top: 8vw;
+    float: right;
+}
+
+input:hover {
+    font-weight: bold;
+    color: #000000;
+    background-color: #F0FBF5;
+    border: 2px #C2C2C2 solid;
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
