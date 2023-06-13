@@ -37,18 +37,30 @@ html {
 
 
 
-h3 {
-	font-size: 36px;
-	line-height: 10px;
-	margin-left: 10px;
-	color: rgb(0, 0, 0);
+
+
+.container11 {
+	width: 80vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-left: 10vw;
 }
+
+.h22 {
+	margin-top: .5rem;
+}
+
 
 .box {
 	height: 50px;
 	width: 10%;
+}
 
-
+.h55 {
+	color: rgb(33, 109, 102);
+	font-family: 'Source Code Pro', 'normal';
+	font-size: 26px;
 }
 
 .box-logo {
@@ -96,23 +108,9 @@ h4 {
 	margin: 0px;
 }
 
-.pContent {
 
-	font-family: 'Source Code Pro', 'normal';
-	font-size: 16px;
-	font-weight: 400;
-	text-align: left;
-	margin: 0px;
-}
 
-h5 {
-	color: rgb(33, 109, 102);
-	font-family: 'Source Code Pro', 'normal';
-	font-size: 26px;
-	font-weight: 600;
-	text-align: left;
-	margin: 0px;
-}
+
 
 hr {
 	background-color: rgb(33, 109, 102);
@@ -169,8 +167,8 @@ hr {
 	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.nav-link {
-	font-size: 20px;
+a.nav-link {
+	font-size: 16px;
 	color: #216D66;
 }
 
