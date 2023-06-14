@@ -440,7 +440,7 @@
 }
 
 .PA {
-    height: 1820px;
+    height: 2000px;
     width: 90%;
     background-color: #30ADA2;
     margin-left: auto;
@@ -472,8 +472,19 @@
     background-color: white;
     position: relative;
     margin-top: 10vw;
-    margin-left: auto;
-    margin-right: calc(33% - 286px);
+    margin-right: auto;
+    margin-left: calc(33% - 286px);
+}
+
+.image-container {
+    width: 432px;
+    height: 391px;
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    left: calc(33% - 432px);
+    transform: translateY(-50%);
+    transition: transform 1s ease-in-out;
 }
 
 .image-overlay {
@@ -481,8 +492,27 @@
     height: 391px;
     position: absolute;
     top: 50%;
-    left: calc(33% - 432px);
     transform: translateY(-50%);
+}
+
+.white-box-L:hover .image-overlay {
+    transform: translateY(-50%) scale(1.05);
+}
+
+.image-container-R {
+    width: 432px;
+    height: 391px;
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    left: calc(100% - 3/3 * 33%);
+    right: -432px;
+    transform: translateY(-50%);
+    transition: transform 0.5s ease;
+}
+
+.white-box-R:hover .image-overlay {
+    transform: translateY(-50%) scale(1.05 1s);
 }
 
 .image-overlay-R {
@@ -490,6 +520,176 @@
     height: 391px;
     position: absolute;
     top: 50%;
-    left: calc(33% - 432px);
+
     transform: translateY(-50%);
+}
+
+.white-box-R:hover .image-overlay-R {
+    transform: translateY(-50%) scale(1.05);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border: 16px solid #6BD7CD;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+
+}
+
+.circle-R {
+    width: 48px;
+    height: 48px;
+    border: 16px solid #6BD7CD;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+}
+
+.white-box-L:hover .circle {
+    width: 52px;
+    height: 52px;
+    border: 8px solid #6BD7CD;
+}
+
+
+
+.white-box-R:hover .circle-R {
+    width: 52px;
+    height: 52px;
+    border: 8px solid #6BD7CD;
+}
+
+.PAtext {
+    font-size: 26px;
+    color: #216D66;
+    font-weight: bold;
+    margin-left: 8vw;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+}
+
+.PAtext1 {
+    font-size: 26px;
+    color: #216D66;
+    font-weight: bold;
+    margin-left: 12vw;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+}
+
+.PAtext2 {
+    font-size: 26px;
+    color: #216D66;
+    font-weight: bold;
+    margin-left: 12vw;
+    position: absolute;
+    top: 15%;
+    left: 5vw;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+}
+
+.sid2 {
+    font-size: 20px;
+    color: #606060;
+    width: 318px;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 10vw;
+    top: 20%;
+    left: 6vw;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+    margin-bottom: 20vw;
+    line-height: 2;
+}
+
+.sid {
+    font-size: 20px;
+    color: #606060;
+    width: 318px;
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 5vw;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+    margin-bottom: 20vw;
+    line-height: 2;
+}
+
+.sid1 {
+    font-size: 20px;
+    color: #606060;
+    width: 318px;
+    position: absolute;
+    margin-left: 14vw;
+    margin-top: 5vw;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+    margin-bottom: 20vw;
+}
+
+.sid3 {
+    font-size: 20px;
+    color: #606060;
+    width: 318px;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 10vw;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: border-width 0.3s;
+    margin-bottom: 20vw;
+    line-height: 2;
+}
+
+.sid-in {
+    position: relative;
+    left: 40%;
+    bottom: 10vw;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: gray;
+    border-radius: 45px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    transform: translate(-50%, -50%);
+    margin-top: 10vw;
+    border: none;
+}
+
+.sid-in:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #51cec3;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
