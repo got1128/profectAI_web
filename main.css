@@ -260,7 +260,7 @@
     background-image: url("SZUSRC/GGB.png");
     background-size: cover;
     /*不變形，寬高等比例，在必要時局部裁切*/
-    width: 100vw;
+    width: 100%;
     height: 811px;
     padding: 30px;
     margin-top: 10vw;
@@ -353,7 +353,7 @@
     font-size: 76px;
     color: #30ADA2;
     font-weight: bold;
-    margin-left: 10vw;
+
     margin-top: 105px;
     margin-bottom: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
