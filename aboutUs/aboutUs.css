@@ -74,7 +74,7 @@
 }
 
 .background-layer {
-    background-image: url("/aboutUs/pic/aboutUs_bg.png");
+    background-image: url("pic/aboutUs_bg.png");
 
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@
 
 .foreground-layer {
     width:100%;
-    background-image: url("/aboutUs/pic/twoHands.png");
+    background-image: url("pic/twoHands.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 120%;
