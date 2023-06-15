@@ -78,7 +78,7 @@ body {
 }
 
 .background-layer {
-    background-image: url("/aboutUs/pic/aboutUs_bg.png");
+    background-image: url("pic/aboutUs_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
