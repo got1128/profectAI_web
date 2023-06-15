@@ -82,11 +82,13 @@
 }
 
 .foreground-layer {
-    width:100%;
-    background-image: url("pic/twoHands.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 120%;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    display: block;
+    z-index: 1;
 }
 
 .humanText {
@@ -486,4 +488,17 @@ h6 {
     background-color: purple;
     height: 100vh;
 
+}
+
+.line2 {
+    width: 100px;
+    height: 4px;
+    background-color: #6BD7CD;
+    transform: rotate(36deg);
+    position: absolute;
+    height: 4px;
+    bottom: 20vh;
+    z-index: 0;
+    right: 0vw;
+    margin: 0;
 }
