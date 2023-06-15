@@ -333,6 +333,7 @@
     background-color: #30ADA2;
     color: white;
     border-radius: 45px;
+    border: none;
     cursor: pointer;
     font-family: "Helvetica Neue", Arial, sans-serif;
     transform: translate(-50%, -50%);
@@ -566,16 +567,16 @@
 }
 
 .white-box-L:hover .circle {
-    width: 52px;
-    height: 52px;
+    width: 55px;
+    height: 55px;
     border: 8px solid #6BD7CD;
 }
 
 
 
 .white-box-R:hover .circle-R {
-    width: 52px;
-    height: 52px;
+    width: 55px;
+    height: 55px;
     border: 8px solid #6BD7CD;
 }
 
@@ -942,15 +943,32 @@
 }
 
 .circle1 {
+    position: relative;
     width: 110px;
     height: 110px;
     border-radius: 50%;
     border: 1px solid black;
     /* 調整邊框顏色 */
     margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.circle1::before {
+    content: '→';
+    font-size: 50px;
+}
+
+.circle1:hover {
+    border: none;
+    color: white;
+    background-color: #30ADA2;
+}
+
 
 .BC {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
