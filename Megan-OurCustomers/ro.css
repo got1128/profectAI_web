@@ -1,5 +1,5 @@
 .swiper {
-    width: 80%;
+    width: 90%;
     height: 440px;
 
     display:flex;
@@ -7,9 +7,19 @@
 	flex-direction:row;
 	justify-content:flex-start;
 	
+}
+.swiper-father {
+  width: 80%;
+  height: 440px;
 
-    
-  }
+  position: relative;
+
+}
+.swiper-cent{
+  display:flex;
+  
+  justify-content: center;  
+}
   
   .swiper-slide {
     text-align: center;
