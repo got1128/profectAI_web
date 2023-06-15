@@ -844,7 +844,7 @@
     border-radius: 45px;
     cursor: pointer;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    margin-left: 42.5vw;
+    margin-left: 44vw;
 
     margin-top: 2vw;
 
@@ -878,6 +878,7 @@
     align-items: center;
     height: 300px;
     /* 調整容器的高度 */
+    margin-top: 2vw;
 }
 
 .uu img {
