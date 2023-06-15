@@ -834,7 +834,7 @@
 }
 
 #CRT5-in {
-    width: 150px;
+    width: 199px;
     height: 50px;
     font-weight: bold;
     background-color: #30ADA2;
@@ -843,7 +843,7 @@
     border-radius: 45px;
     cursor: pointer;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    margin-left: 48vw;
+    margin-left: 42.5vw;
 
     margin-top: 2vw;
 
@@ -854,4 +854,103 @@
     background-color: #65bbb4ef;
     color: white;
     font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.ABus {
+    margin-top: 15vw;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.ABus1 {
+    font-size: 20px;
+    color: #6BD7CD;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.uu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* 調整容器的高度 */
+}
+
+.uu img {
+    width: 80vw;
+}
+
+.ABus2 {
+    font-size: 36px;
+    color: #000000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 2vw;
+}
+
+.btm {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vw;
+}
+
+
+
+.center-line {
+    position: relative;
+    height: 40vw;
+    width: 5px;
+    z-index: -1;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.center-line::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    width: 1px;
+    height: 35vw;
+    background-color: black;
+    /* 調整直線的顏色 */
+}
+
+.btmT {
+    font-size: 26px;
+    margin-top: 2vw;
+    font-weight: bold;
+}
+
+.btmTe {
+    font-size: 18px;
+    margin-top: 2vw;
+    color: #606060;
+    width: 20vw;
+}
+
+.btmP {
+    width: 432px;
+}
+
+.circle1 {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* 調整邊框顏色 */
+    margin-left: 1vw;
+}
+
+.BC {
+    display: flex;
+    align-items: center;
 }
