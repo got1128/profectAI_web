@@ -689,6 +689,7 @@
     transform: translate(-50%, -50%);
     margin-top: 10vw;
     border: none;
+    transition: transform 0.3s ease;
 }
 
 .sid-in:hover {
@@ -741,13 +742,14 @@
 .CUM {
     margin-left: 5vw;
     position: absolute;
+    margin-top: -2vw;
 }
 
 .CUMH {
     font-size: 96px;
     color: #606060;
     font-weight: bold;
-
+    margin-left: 3vw;
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
 }
@@ -756,6 +758,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .CUMHt {
@@ -765,8 +768,8 @@
 
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
-    margin-top: 9vw;
-    margin-left: 1vw;
+    margin-top: 10vw;
+    margin-left: 3.2vw;
 }
 
 .CUMHt2 {
@@ -776,8 +779,8 @@
 
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
-    margin-top: 13vw;
-    margin-left: 1vw;
+    margin-top: 15vw;
+    margin-left: 3.2vw;
     border-bottom: 4px solid #BDF2F9;
     margin-bottom: 10vw;
 }
@@ -786,13 +789,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 18vw;
+    margin-top: 22vw;
+    margin-left: 4vw;
+}
+
+.image {
+    width: 318px;
+    height: 148px;
+    margin-bottom: 10px;
 
 }
 
 .image-grid img {
-    width: 180px;
-    height: 120px;
+    width: 150px;
+    height: auto;
     margin-bottom: 10px;
-    margin-left: auto;
+
+}
+
+.gray-image {
+    filter: grayscale(80%);
+    transition: transform 0.3s ease;
+}
+
+.image-grid:hover .gray-image {
+    filter: grayscale(0%);
 }
