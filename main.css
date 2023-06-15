@@ -413,7 +413,7 @@
     width: 150px;
     height: 50px;
     font-weight: bold;
-    background-color: #30ADA2;
+    background-color: #4cb0a8;
     border: none;
     color: white;
     border-radius: 45px;
@@ -445,7 +445,7 @@
 
 .PA {
     height: 2000px;
-    width: 90%;
+    width: 90vw;
     background-color: #30ADA2;
     margin-left: auto;
     margin-right: auto;
@@ -742,23 +742,25 @@
 .CUM {
     margin-left: 5vw;
     position: absolute;
+
     margin-top: -2vw;
+    width: 88.5vw;
 }
 
 .CUMH {
     font-size: 96px;
     color: #606060;
     font-weight: bold;
-    margin-left: 3vw;
+    margin-left: 4vw;
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
+    display: flex;
 }
 
 .CUNTEXT {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .CUMHt {
@@ -769,7 +771,7 @@
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
     margin-top: 10vw;
-    margin-left: 3.2vw;
+    margin-left: 4vw;
 }
 
 .CUMHt2 {
@@ -780,31 +782,37 @@
     font-family: "Helvetica Neue", Arial, sans-serif;
     position: absolute;
     margin-top: 15vw;
-    margin-left: 3.2vw;
+    margin-left: 4vw;
     border-bottom: 4px solid #BDF2F9;
     margin-bottom: 10vw;
+
 }
 
 .image-grid {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-between;
     margin-top: 22vw;
-    margin-left: 4vw;
+
 }
 
 .image {
-    width: 318px;
+    width: 20vw;
     height: 148px;
     margin-bottom: 10px;
 
+    padding: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-grid img {
-    width: 150px;
+    width: 200px;
     height: auto;
     margin-bottom: 10px;
-
+    margin-left: 3vw;
+    margin-right: auto;
 }
 
 .gray-image {
@@ -814,4 +822,36 @@
 
 .image-grid:hover .gray-image {
     filter: grayscale(0%);
+}
+
+.Lass {
+    flex: 1;
+    display: inline-flex;
+    width: 100vw;
+    height: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#CRT5-in {
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #30ADA2;
+    border: none;
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin-left: 48vw;
+
+    margin-top: 2vw;
+
+}
+
+#CRT5-in:hover {
+    font-weight: bold;
+    background-color: #65bbb4ef;
+    color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
