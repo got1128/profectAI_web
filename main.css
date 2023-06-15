@@ -131,6 +131,9 @@
 }
 
 /*鎖骨*/
+.PA {
+    display: block;
+}
 
 .PPA {
     margin-top: 30px;
@@ -347,6 +350,8 @@
 .CR {
     position: relative;
     justify-content: center;
+    display: block;
+    width: 100%;
 }
 
 #CRT1 {
@@ -392,7 +397,7 @@
     display: flex;
     flex-flow: column;
     padding: 5px 0;
-    height: 800px;
+
 }
 
 #CRT4 {
@@ -406,7 +411,7 @@
 
 #CRT4-in {
     width: 150px;
-    height: 100px;
+    height: 50px;
     font-weight: bold;
     background-color: #30ADA2;
     border: none;
@@ -427,8 +432,7 @@
 }
 
 .AA {
-    height: 100%;
-    margin: 0;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -448,7 +452,7 @@
     position: absolute;
     left: 5vw;
     top: 50vw;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex: 1;
@@ -716,4 +720,79 @@
     color: white;
     background-color: #51cec3;
     font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.A {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+.N {
+    position: static;
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    border: 1px slid black;
+    margin-top: 88vw;
+}
+
+.CUM {
+    margin-left: 5vw;
+    position: absolute;
+}
+
+.CUMH {
+    font-size: 96px;
+    color: #606060;
+    font-weight: bold;
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    position: absolute;
+}
+
+.CUNTEXT {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.CUMHt {
+    font-size: 26px;
+    color: #000000;
+    font-weight: bold;
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 1vw;
+}
+
+.CUMHt2 {
+    font-size: 18px;
+    color: #606060;
+    font-weight: bold;
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 1vw;
+    border-bottom: 4px solid #BDF2F9;
+    margin-bottom: 10vw;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 18vw;
+
+}
+
+.image-grid img {
+    width: 180px;
+    height: 120px;
+    margin-bottom: 10px;
+    margin-left: auto;
 }
